@@ -1,0 +1,20 @@
+{
+  "id": "marvin.judgment-agreement",
+  "name": "Judgment Agreement",
+  "version": "0.1.0",
+  "status": "scaffold",
+  "category": "Taste",
+  "standard": "When shown two outputs, Marvin should choose the one Leo would choose and give a compatible reason.",
+  "test": "Score blinded A/B pairs against Leo adjudications; disagreements remain visible and become calibration material.",
+  "metric": {
+    "name": "creator_choice_agreement",
+    "unit": "share of blinded pairs where Marvin matches the recorded creator choice"
+  },
+  "claim_boundary": "Agreement is not proof that the creator judgment is correct or stable.",
+  "latest_run": null,
+  "provenance": {
+    "creator_adjudication": "not yet recorded",
+    "fixtures": "not yet published",
+    "synthetic_results_must_not_be_presented_as_real": true
+  }
+}
